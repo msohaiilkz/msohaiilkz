@@ -11,7 +11,7 @@
 
 
 
-💡 About Me
+## 💡 About Me
 
 I’m a Frontend Developer crafting sleek, high-performing, and intuitive user experiences.
 Currently evolving into a Full-Stack Developer, expanding my skills in Next.js, TypeScript, and Firebase to build seamless, end-to-end web applications.
@@ -62,13 +62,13 @@ Through innovative technology, we empower learners to unlock their full potentia
 ## 📊 GitHub Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msohailkz&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=msohaiilkz&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msohailkz&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msohaiilkz&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msohailkz&bg_color=0d1117&color=00E6FE&line=0077FF&point=1BE7FF&area=true&hide_border=true" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msohaiilkz&bg_color=0d1117&color=00E6FE&line=0077FF&point=1BE7FF&area=true&hide_border=true" alt="GitHub Activity Graph" />
 </p>
 
 ---
