@@ -1,11 +1,13 @@
 <div align="center">
   
-  # 👋 Muhammad Sohail
-  
-  **Frontend Developer | Next.js Specialist | Full-Stack Enthusiast**
-  
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00D9FF&center=true&width=900&lines=Building+Modern+Web+Experiences+💻;Next.js+%2B+TypeScript+%2B+Firebase;Crafting+Performant+UIs+with+Passion+🚀)
-  
+# 👋 Muhammad Sohail
+
+**Frontend Developer | Next.js Specialist | Full-Stack Enthusiast**
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00D9FF&center=true&width=900&lines=Building+Modern+Web+Experiences+💻;Next.js+%2B+TypeScript+Specialist;Crafting+Beautiful+UIs+%26+Animations)
+
+![Profile Views](https://komarev.com/ghpvc/?username=msohaiilkz&color=00D9FF&style=flat-square)
+
 </div>
 
 ---
@@ -39,7 +41,7 @@ Currently mastering:
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### Backend & Databases
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -59,7 +61,7 @@ Currently mastering:
 
 ## 💪 Core Strengths
 
-| Skill | Details |
+| 🎯 Skill | 📝 Details |
 |-------|---------|
 | **Custom Code Expertise** | Proficient in both AI-generated and hand-written code; knows when to optimize manually |
 | **Next.js Mastery** | SSR, ISR, App Router, API Routes, Performance Optimization, Edge Deployment |
@@ -70,154 +72,15 @@ Currently mastering:
 
 ---
 
-## 🚀 Featured Projects
-
-### 1. **[🎓 Edolutions - Online Education Platform](https://edolutions.com/)**
-> Modern educational ecosystem with intelligent dashboards
-
-**🔗 Repository:** [View on GitHub](https://github.com/msohaiilkz/msohaiilkz)
-
-- ✨ **Admin Dashboard** - Comprehensive management system
-- 👨‍🏫 **Teacher Dashboard** - Teaching & content management
-- 👨‍🎓 **Student Dashboard** - Learning interface
-- 🌐 **Modern Website** - Responsive, engaging landing experience
-- ☁️ **Firebase Integration** - Real-time data, secure authentication, scalable hosting
-- 🎯 Purpose: Connecting students with expert tutors for tailored learning experiences
-
-**Tech Stack:** Next.js, TypeScript, Firebase, Tailwind CSS, Framer Motion
-
----
-
-### 2. **[🏢 Aggies - Modern Web Solution](https://github.com/msohaiilkz/Aggies)**
-> TypeScript-powered modern application
-
-**🔗 Repository:** [msohaiilkz/Aggies](https://github.com/msohaiilkz/Aggies)
-
-- 🎯 High-performance web application
-- 📱 Responsive design
-- ⚡ Optimized performance
-
-**Tech Stack:** TypeScript, React, Next.js
-
----
-
-### 3. **[🚚 Ridely - Transportation & Delivery Platform](https://github.com/msohaiilkz/Ridely)**
-> Saudi Arabia's modern delivery solution
-
-**🔗 Repository:** [msohaiilkz/Ridely](https://github.com/msohaiilkz/Ridely)
-
-- 🌐 Static frontend with dynamic booking form
-- 📍 Operating across Saudi Arabia
-- 💼 Seamless user experience for delivery services
-- 📱 Fully responsive interface
-
-**Tech Stack:** HTML5, CSS3, JavaScript
-
----
-
-### 4. **[💼 MH Tech Solution](https://github.com/msohaiilkz/mh-tech-solution)**
-> Professional tech consulting platform
-
-**🔗 Repository:** [msohaiilkz/mh-tech-solution](https://github.com/msohaiilkz/mh-tech-solution)
-
-- 🎨 Modern design system
-- 📊 Corporate interface
-- 🚀 Performance optimized
-
-**Tech Stack:** HTML, CSS, JavaScript
-
----
-
-### 5. **[🌳 Trees System Solution](https://github.com/msohaiilkz/Trees-System-Solution)**
-> Environmental management system
-
-**🔗 Repository:** [msohaiilkz/Trees-System-Solution](https://github.com/msohaiilkz/Trees-System-Solution)
-
-- 🌱 Eco-friendly platform
-- 📈 Data management interface
-- ♻️ Sustainability focused
-
-**Tech Stack:** HTML5, CSS3, JavaScript
-
----
-
-### 6. **[🤖 Sentient AI](https://github.com/msohaiilkz/Sentient-Ai)**
-> AI-powered intelligent application
-
-**🔗 Repository:** [msohaiilkz/Sentient-Ai](https://github.com/msohaiilkz/Sentient-Ai)
-
-- 🧠 Machine learning integration
-- ⚡ Real-time processing
-- 🎯 Intelligent features
-
-**Tech Stack:** JavaScript, React
-
----
-
-### 7. **[🏢 Staffora Global](https://staffora-global.vercel.app/)**
-> Global staffing & recruitment platform
-
-**🔗 Repository:** [msohaiilkz/staffora_global](https://github.com/msohaiilkz/staffora_global)  
-**🌐 Live Demo:** [staffora-global.vercel.app](https://staffora-global.vercel.app/)
-
-- 💼 Recruitment management system
-- 🔍 Job matching algorithms
-- 📱 User-friendly interface
-- ☁️ Cloud-hosted solution
-
-**Tech Stack:** JavaScript, React, Vercel
-
----
-
-### 8. **[🌐 Mentor Club Global](https://github.com/msohaiilkz/mentor_club_global)**
-> International mentorship community platform
-
-**🔗 Repository:** [msohaiilkz/mentor_club_global](https://github.com/msohaiilkz/mentor_club_global)
-
-- 🎓 Mentor-mentee matching
-- 💬 Community features
-- 📚 Learning resources
-- 🌍 Global reach
-
-**Tech Stack:** JavaScript, React
-
----
-
-### 9. **[📱 Enpro - Professional Solutions](https://github.com/msohaiilkz/enpro)**
-> Enterprise solutions platform
-
-**🔗 Repository:** [msohaiilkz/enpro](https://github.com/msohaiilkz/enpro)
-
-- 🏢 Enterprise features
-- 🔐 Secure infrastructure
-- ⚙️ API integration
-- 📊 Advanced analytics
-
-**Tech Stack:** TypeScript, Next.js, Firebase
-
----
-
-### 10. **[🏭 Methologik - Industrial Solutions](https://github.com/msohaiilkz/methologik)**
-> Industrial methodology & process management
-
-**🔗 Repository:** [msohaiilkz/methologik](https://github.com/msohaiilkz/methologik)
-
-- 🔧 Process optimization
-- 📈 Productivity tools
-- 🎯 Quality management
-- 📊 Reporting dashboards
-
-**Tech Stack:** HTML5, CSS3, JavaScript
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msohaiilkz&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117&text_color=00D9FF)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=msohaiilkz&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117&text_color=00D9FF&icon_color=00D9FF)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=msohaiilkz&theme=tokyonight&hide_border=true&background=0d1117)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=msohaiilkz&layout=compact&theme=tokyonight&bg_color=0d1117&text_color=00D9FF&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=msohaiilkz&theme=tokyonight&hide_border=true&background=0d1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&sideLabels=00D9FF)
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=msohaiilkz&bg_color=0d1117&color=00D9FF&line=0077FF&point=1BE7FF&area=true&hide_border=true)
 
@@ -225,15 +88,148 @@ Currently mastering:
 
 ---
 
+## 🚀 Featured Projects
+
+### 1. **[🎓 Edolutions - Online Education Platform](https://edolutions.com/)**
+> Modern educational ecosystem with intelligent dashboards
+
+- ✨ **Admin Dashboard** - Comprehensive management system
+- 👨‍🏫 **Teacher Dashboard** - Teaching & content management
+- 👨‍🎓 **Student Dashboard** - Learning interface
+- 🌐 **Modern Website** - Responsive, engaging landing experience
+- ☁️ **Firebase Integration** - Real-time data, secure authentication
+- 🎯 Purpose: Connecting students with expert tutors
+
+**Tech Stack:** `Next.js` `TypeScript` `Firebase` `Tailwind CSS` `Framer Motion`
+
+---
+
+### 2. **[🏢 Aggies - Modern Web Solution](https://github.com/msohaiilkz/Aggies)**
+> TypeScript-powered modern application
+
+- 🎯 High-performance web application
+- 📱 Responsive design
+- ⚡ Optimized performance
+
+**Tech Stack:** `TypeScript` `React` `Next.js`
+
+---
+
+### 3. **[🚚 Ridely - Transportation & Delivery Platform](https://github.com/msohaiilkz/Ridely)**
+> Saudi Arabia's modern delivery solution
+
+- 🌐 Static frontend with dynamic booking form
+- 📍 Operating across Saudi Arabia
+- 💼 Seamless user experience
+- 📱 Fully responsive interface
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript`
+
+---
+
+### 4. **[💼 MH Tech Solution](https://github.com/msohaiilkz/mh-tech-solution)**
+> Professional tech consulting platform
+
+- 🎨 Modern design system
+- 📊 Corporate interface
+- 🚀 Performance optimized
+
+**Tech Stack:** `HTML` `CSS` `JavaScript`
+
+---
+
+### 5. **[🌳 Trees System Solution](https://github.com/msohaiilkz/Trees-System-Solution)**
+> Environmental management system
+
+- 🌱 Eco-friendly platform
+- 📈 Data management interface
+- ♻️ Sustainability focused
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript`
+
+---
+
+### 6. **[🤖 Sentient AI](https://github.com/msohaiilkz/Sentient-Ai)**
+> AI-powered intelligent application
+
+- 🧠 Machine learning integration
+- ⚡ Real-time processing
+- 🎯 Intelligent features
+
+**Tech Stack:** `JavaScript` `React`
+
+---
+
+### 7. **[🏢 Staffora Global](https://staffora-global.vercel.app/)**
+> Global staffing & recruitment platform
+
+- 💼 Recruitment management system
+- 🔍 Job matching algorithms
+- 📱 User-friendly interface
+- ☁️ Cloud-hosted solution
+
+**Tech Stack:** `JavaScript` `React` `Vercel`
+
+---
+
+### 8. **[🌐 Mentor Club Global](https://github.com/msohaiilkz/mentor_club_global)**
+> International mentorship community platform
+
+- 🎓 Mentor-mentee matching
+- 💬 Community features
+- 📚 Learning resources
+- 🌍 Global reach
+
+**Tech Stack:** `JavaScript` `React`
+
+---
+
+### 9. **[📱 Enpro - Professional Solutions](https://github.com/msohaiilkz/enpro)**
+> Enterprise solutions platform
+
+- 🏢 Enterprise features
+- 🔐 Secure infrastructure
+- ⚙️ API integration
+- 📊 Advanced analytics
+
+**Tech Stack:** `TypeScript` `Next.js` `Firebase`
+
+---
+
+### 10. **[🏭 Methologik - Industrial Solutions](https://github.com/msohaiilkz/methologik)**
+> Industrial methodology & process management
+
+- 🔧 Process optimization
+- 📈 Productivity tools
+- 🎯 Quality management
+- 📊 Reporting dashboards
+
+**Tech Stack:** `HTML5` `CSS3` `JavaScript`
+
+---
+
 ## 🧠 Currently Learning & Exploring
 
-- 📚 Advanced **Next.js App Router** with Middleware
-- 🔒 Strongly-typed APIs with **TypeScript** best practices
-- 🌐 Real-time applications using **Firebase Cloud Functions**
-- ⚡ Performance optimization through **Edge Deployment**
-- 🤖 AI-assisted coding workflows with modern tools
-- 🎨 Advanced animation techniques & micro-interactions
-- 📱 Progressive Web Apps (PWA) development
+<div align="center">
+
+| 📚 Learning | 🔒 Skill |
+|-----------|---------|
+| Advanced **Next.js App Router** with Middleware | Strongly-typed APIs with **TypeScript** |
+| Real-time apps using **Firebase Cloud Functions** | Performance optimization through **Edge Deployment** |
+| AI-assisted coding workflows with modern tools | Advanced animation techniques & micro-interactions |
+| Progressive Web Apps (PWA) development | Web3 & Blockchain Basics |
+
+</div>
+
+---
+
+## 🎨 Featured Animations & Effects
+
+- ✨ Smooth page transitions with Framer Motion
+- 🎯 Interactive UI components with GSAP
+- 📱 Responsive animations for mobile devices
+- 🌊 Lenis smooth scrolling experiences
+- 💫 Micro-interactions for better UX
 
 ---
 
@@ -261,6 +257,41 @@ I'm actively seeking:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Sohail-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-sohail-0227a7224)
 [![GitHub](https://img.shields.io/badge/GitHub-msohaiilkz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msohaiilkz)
 [![Portfolio](https://img.shields.io/badge/Portfolio-msohailkz.github.io-121212?style=for-the-badge&logo=vercel&logoColor=white)](https://msohailkz.github.io)
+[![Twitter](https://img.shields.io/badge/Twitter-msohaiilkz-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/msohaiilkz)
+
+</div>
+
+---
+
+## 💡 My Development Philosophy
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   Code with Logic → Design with Emotion → Deliver    │
+│                      with Impact                       │
+│                                                         │
+│   Building tomorrow's web, one line of code at a time  │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## 🏆 Highlights
+
+<div align="center">
+
+- 🌟 **10+ Production Projects** successfully deployed
+- 💻 **Expertise** in modern web technologies
+- 🚀 **Performance-Driven** development approach
+- 🎨 **Animation** and UX specialist
+- 📈 **Scalable** and maintainable code
+- 🔧 **Full-Stack** capabilities
 
 </div>
 
@@ -268,17 +299,12 @@ I'm actively seeking:
 
 <div align="center">
 
-### 💡 My Development Philosophy
+### ✨ Made with ❤️ by Muhammad Sohail
 
-```
-Code with Logic → Design with Emotion → Deliver with Impact
-```
+*Last updated: May 2026*
 
-**Building tomorrow's web, one line of code at a time.** ✨
-
----
-
-*Last updated: May 2026*  
 *Feel free to reach out for collaborations, opportunities, or just to chat about web development!* 🚀
+
+![Visitors](https://img.shields.io/badge/dynamic/json?color=00D9FF&label=Visitors&query=value&url=https://api.countapi.xyz/hit/msohaiilkz-readme/visits&style=flat-square)
 
 </div>
