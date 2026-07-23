@@ -2,7 +2,7 @@
 
 # 👋 Muhammad Sohail
 
-### *Full-Stack Developer | Next.js Developer | UI Performance Specialist
+### Full-Stack Developer | Next.js Developer | UI Performance Specialist
 
 I build modern, responsive, and production-ready web interfaces using **Next.js, React.js, TypeScript, Tailwind CSS, Firebase, and advanced animation tools**.
 
