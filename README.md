@@ -2,9 +2,9 @@
 
 # 👋 Muhammad Sohail
 
-### Frontend Engineer | Next.js Developer | UI Performance Specialist
+### *Full-Stack Developer | Next.js Developer | UI Performance Specialist
 
-I build modern, responsive, and production-ready web interfaces using **Next.js, React, TypeScript, Tailwind CSS, Firebase, and advanced animation tools**.
+I build modern, responsive, and production-ready web interfaces using **Next.js, React.js, TypeScript, Tailwind CSS, Firebase, and advanced animation tools**.
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00D9FF&center=true&width=900&lines=Frontend+Engineer+💻;Next.js+%2B+TypeScript+Developer;Building+Clean+%26+Modern+Web+Interfaces;Creating+Fast+Responsive+%26+Smooth+User+Experiences)
 
@@ -16,7 +16,7 @@ I build modern, responsive, and production-ready web interfaces using **Next.js,
 
 ## 🚀 About Me
 
-I'm a **Frontend Engineer** focused on building clean, scalable, and high-performance web applications.  
+I'm a **Full-Stack Developer** focused on building clean, scalable, and high-performance web applications.  
 I specialize in converting ideas, designs, and product requirements into modern, responsive, and user-friendly digital experiences.
 
 My work mainly focuses on:
