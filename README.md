@@ -7,7 +7,7 @@
 I build modern, responsive, and production-ready web interfaces using **Next.js, React.js, TypeScript, Tailwind CSS, Firebase, and advanced animation tools**.
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=00D9FF&center=true&vCenter=true&width=950&lines=Full+Stack+Engineer+💻;React.js+%7C+Next.js+%7C+Node.js;Building+Scalable+Web+Applications;REST+APIs+%7C+MongoDB+%7C+PostgreSQL;Exploring+AI+Engineering+%26+LLMs;Turning+Ideas+Into+Production+Software+🚀" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=00D9FF&center=true&vCenter=true&width=950&lines=Full+Stack+Engineer+💻;React.js+%7C+Next.js+%7C+Node.js;Building+Scalable+Web+Applications;REST+APIs+%7C+MongoDB+%7C+PostgreSQL;AI+Engineering+%26+LLMs+%26RAG+%26MCP;Turning+Ideas+Into+Production+Software+🚀" alt="Typing SVG" />
 </p>
 
 <p align="center">
