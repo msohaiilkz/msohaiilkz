@@ -34,16 +34,16 @@ My work mainly focuses on:
 
 ---
 
-## 🧩 What I’m Currently Focused On
+## 🛠️ What I'm Currently Focused On
 
-- 🚀 Advanced **Next.js App Router**
-- 💎 Scalable frontend architecture with **TypeScript**
-- 🎨 Pixel-perfect UI implementation
-- ⚡ Frontend performance optimization
-- 📱 Responsive design for all screen sizes
-- ✨ Advanced animations and smooth user interactions
-- 🔗 API integration and frontend data handling
-- ☁️ Firebase-powered frontend workflows
+- 🤖 AI Engineering & Large Language Models (LLMs)
+- 🧠 RAG, Embeddings & Vector Databases
+- 🔗 MCP (Model Context Protocol) & AI Agent Workflows
+- ⚡ Building scalable Full Stack applications
+- 🌐 REST API development with Node.js & Express.js
+- 🗄️ MongoDB, PostgreSQL & MySQL
+- 🎨 Interactive UI using Three.js, GSAP & Framer Motion
+- ✍️ Sharing AI Engineering Notes on LinkedIn
 
 ---
 
