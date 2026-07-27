@@ -139,105 +139,198 @@ My collaboration experience includes:
 
 ## 🚀 Featured Projects
 
-A selection of production applications, business platforms, and interactive web experiences I have worked on.
+A selection of production applications, enterprise platforms, and modern digital experiences I have worked on.
 
----
+<br />
 
-### 🛡️ Enterprise & Business Applications
+<table>
+<tr>
+<td width="50%" valign="top">
 
-#### 01. Aggies — Fraud Alert Management Platform
+### 🛡️ Aggies
 
-A modern fraud-alert management interface designed for reviewing alerts, managing workflows, and supporting operational teams.
+**Fraud Alert Management Platform**
 
-**Highlights:** Dashboard workflows · Alert management · Responsive interface · Production deployment
+A modern enterprise interface for reviewing fraud alerts, managing assignments, and supporting operational workflows.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://aegis-ui.netlify.app)
+**Highlights**
 
----
+`Alert Management` `Dashboards` `Workflow Automation` `Responsive UI`
 
-#### 02. Shaheen Insurance
+<br />
 
-A modern insurance platform designed to provide a clear and accessible digital experience for insurance products and services.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://aegis-ui.netlify.app)
 
-**Highlights:** Insurance services · Responsive design · Structured user journey · Modern interface
+</td>
+<td width="50%" valign="top">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://shaheeninsurance.netlify.app)
+### 🏦 Shaheen Insurance
 
----
+**Digital Insurance Platform**
 
-#### 03. Greycoast Capital
+A modern insurance platform designed to present products and services through a clear, accessible, and responsive digital experience.
 
-A professional financial-services website developed with a premium corporate interface and structured service presentation.
+**Highlights**
 
-**Highlights:** Financial services · Corporate UI · Responsive layouts · Professional branding
+`Insurance Services` `User Journeys` `Responsive Design` `Modern UI`
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://greycoast.netlify.app)
+<br />
 
----
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://shaheeninsurance.netlify.app)
 
-#### 04. Staffora Global
+</td>
+</tr>
 
-A global staffing and recruitment platform designed to present workforce solutions and professional hiring services.
+<tr>
+<td width="50%" valign="top">
 
-**Highlights:** Recruitment platform · Staffing services · Responsive interface · Modern business design
+### 💼 Greycoast Capital
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://stafforalglobal.netlify.app)
+**Financial Services Website**
 
----
+A premium corporate website created to present financial services, expertise, and business capabilities through a professional interface.
 
-#### 05. Mentor Club Global
+**Highlights**
 
-A mentorship and professional-development platform focused on learning, leadership, and global community engagement.
+`Financial Services` `Corporate UI` `Brand Presentation` `Responsive Layout`
 
-**Highlights:** Mentorship platform · Content management · Community experience · Responsive layouts
+<br />
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mentorclubglobal.netlify.app)
-[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/mentor_club_global)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://greycoast.netlify.app)
 
----
+</td>
+<td width="50%" valign="top">
 
-### 🌐 Corporate & Digital Solutions
+### 🌍 Staffora Global
 
-#### 06. Pronexuss
+**Staffing and Recruitment Platform**
 
-A professional business platform designed with modern layouts, structured content, and a user-focused digital experience.
+A global recruitment platform designed to showcase staffing solutions, hiring services, and professional workforce opportunities.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://pronexuss.netlify.app)
+**Highlights**
 
----
+`Recruitment` `Staffing Services` `Business Platform` `Responsive UI`
 
-#### 07. SageConz
+<br />
 
-A corporate consulting website focused on presenting services, expertise, and business solutions through a clean interface.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://stafforalglobal.netlify.app)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sageconz.netlify.app)
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" valign="top">
 
-#### 08. Ezee Digital Lab
+### 🎓 Mentor Club Global
 
-A digital agency platform created to showcase technology, design, and business transformation services.
+**Mentorship and Learning Platform**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://ezeedigitallab.netlify.app)
+A professional-development platform focused on mentorship, global learning, community engagement, and educational resources.
 
----
+**Highlights**
 
-#### 09. MH Tech Solution
+`Mentorship` `Content Management` `Community Platform` `Responsive Design`
 
-A professional technology-services website built with a structured corporate layout and responsive user interface.
+<br />
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mh-techsolution.netlify.app)
-[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/mh-tech-solution)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mentorclubglobal.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msohaiilkz/mentor_club_global)
 
----
+</td>
+<td width="50%" valign="top">
 
-#### 10. Mufazim PEXE
+### 🔗 Pronexuss
 
-A modern professional platform developed with clear content sections, responsive layouts, and an engaging interface.
+**Professional Business Platform**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mufazimpexe.netlify.app)
+A modern business website designed around clear service presentation, structured content, and a user-focused digital experience.
 
----
+**Highlights**
+
+`Business Services` `Modern Layout` `Content Structure` `User Experience`
+
+<br />
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://pronexuss.netlify.app)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 📊 SageConz
+
+**Corporate Consulting Website**
+
+A consulting-focused platform created to present business expertise, professional services, and organizational capabilities.
+
+**Highlights**
+
+`Consulting` `Corporate Design` `Service Presentation` `Responsive UI`
+
+<br />
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sageconz.netlify.app)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 Ezee Digital Lab
+
+**Digital Agency Platform**
+
+A technology and digital-services platform designed to showcase development, design, and business-transformation capabilities.
+
+**Highlights**
+
+`Digital Agency` `Technology Services` `Modern Interface` `Business Solutions`
+
+<br />
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://ezeedigitallab.netlify.app)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💻 MH Tech Solution
+
+**Technology Services Website**
+
+A professional corporate website built to present technology services through a clean layout and responsive user interface.
+
+**Highlights**
+
+`Technology Services` `Corporate Website` `Responsive Layout` `Clean UI`
+
+<br />
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mh-techsolution.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msohaiilkz/mh-tech-solution)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏢 Mufazim PEXE
+
+**Professional Corporate Platform**
+
+A modern business platform featuring clear information sections, responsive layouts, and an engaging professional interface.
+
+**Highlights**
+
+`Corporate Platform` `Content Structure` `Responsive Design` `Modern Experience`
+
+<br />
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mufazimpexe.netlify.app)
+
+</td>
+</tr>
+</table>
 
 ### 🎓 Education & Intelligent Experiences
 
