@@ -4,7 +4,7 @@
 
 ### Full-Stack Developer | Next.js Developer | UI Performance Specialist
 
-I build modern, responsive, and production-ready web interfaces using **Next.js, React.js, TypeScript, Tailwind CSS, Firebase, and advanced animation tools**.
+I design and build scalable, high-performance, and production-ready software solutions using **React.js, Next.js, Node.js, Express.js, TypeScript, MongoDB, PostgreSQL, MySQL, and modern engineering practices**, while exploring **AI-powered application development**.
 
 <p align="center">
  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=00D9FF&center=true&vCenter=true&width=950&lines=Full+Stack+Engineer+%F0%9F%92%BB;React.js+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Building+Modern+%26+Scalable+Web+Applications;TypeScript+%E2%80%A2+MongoDB+%E2%80%A2+PostgreSQL;AI+Engineering+%E2%80%A2+LLMs+%E2%80%A2+RAG+%E2%80%A2+MCP;Turning+Ideas+Into+Production+Software+%F0%9F%9A%80" alt="Typing SVG" />
