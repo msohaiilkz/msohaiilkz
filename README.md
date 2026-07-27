@@ -303,12 +303,17 @@ An environmental platform concept focused on sustainability, structured informat
 
 | Learning Area | Focus |
 |---|---|
-| **Advanced Next.js** | App Router, Middleware, Server Components, deployment optimization |
-| **TypeScript** | Scalable types, reusable patterns, safer frontend architecture |
-| **Firebase** | Cloud Functions, Firestore structure, authentication flows |
-| **Performance** | Core Web Vitals, image optimization, lazy loading, code splitting |
-| **Animations** | Framer Motion, GSAP, Lenis, smooth page transitions |
-| **PWA Development** | Offline-first experiences and installable web apps |
+| **Full Stack Architecture** | Scalable application structure, clean architecture, reusable modules, and production-ready workflows |
+| **Advanced Next.js** | App Router, Server Components, middleware, SSR, ISR, caching, and deployment optimization |
+| **Backend Development** | Node.js, Express.js, REST APIs, middleware, validation, authentication, and error handling |
+| **Database Engineering** | MongoDB, PostgreSQL, MySQL, data modeling, relationships, queries, and application integration |
+| **TypeScript** | Type-safe frontend and backend development, reusable patterns, and maintainable codebases |
+| **AI Engineering** | LLMs, prompt engineering, context engineering, tool calling, and intelligent application workflows |
+| **RAG & Vector Search** | Embeddings, vector databases, retrieval pipelines, and context-aware AI responses |
+| **AI Agents & MCP** | Agent loops, external tools, Model Context Protocol, and controlled automation |
+| **Performance Engineering** | Core Web Vitals, caching, image optimization, lazy loading, and code splitting |
+| **Animation & 3D** | Framer Motion, GSAP, Lenis, Three.js, scroll animations, and interactive web experiences |
+| **Electron.js** | Building cross-platform desktop applications using modern web technologies |
 
 </div>
 
@@ -316,14 +321,16 @@ An environmental platform concept focused on sustainability, structured informat
 
 ## 🎨 UI Animation & Interaction Work
 
-I enjoy creating interfaces that feel smooth, clean, and engaging.
+I build interfaces that are not only functional, but also smooth, responsive, and engaging.
 
-- Smooth page transitions with Framer Motion
-- Scroll-based animations with GSAP
-- Lenis smooth scrolling experiences
-- Responsive animations for mobile devices
-- Micro-interactions for better user experience
-- Clean hover states and modern UI behavior
+- Smooth page and layout transitions with **Framer Motion**
+- Timeline-based and scroll-triggered animations using **GSAP**
+- Smooth scrolling experiences with **Lenis**
+- Interactive 3D web experiences using **Three.js**
+- Responsive motion behavior across desktop and mobile devices
+- Micro-interactions for buttons, cards, navigation, and forms
+- Performance-focused animation implementation
+- Accessible motion with reduced-motion support
 
 ---
 
