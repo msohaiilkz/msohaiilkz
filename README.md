@@ -85,19 +85,20 @@ My work mainly focuses on:
 
 ## 💼 Team Work & Contributions
 
-I work on **team-based repositories** using professional Git workflows.
+I enjoy collaborating in team environments and contributing to production-ready software through modern Git workflows.
 
-My team contribution experience includes:
+My collaboration experience includes:
 
-- Working on feature and development branches
-- Pushing frontend updates to shared repositories
-- Creating pull requests for review and merge
-- Fixing UI bugs, layout issues, and responsive design problems
-- Improving frontend performance and user experience
-- Collaborating with developers, designers, and project teams
-- Following branch-based workflows before code is merged into the main/default branch
+- Working across feature, development, and release branches
+- Building frontend and backend features in shared repositories
+- Developing and integrating REST APIs
+- Designing and maintaining MongoDB, PostgreSQL, and MySQL databases
+- Fixing bugs, improving performance, and optimizing application architecture
+- Participating in code reviews and pull requests
+- Collaborating with developers, designers, QA, and product teams
+- Following Git-based workflows to ensure clean, maintainable, and production-ready code
 
-> Some team contributions may appear on the GitHub contribution graph after pull requests or branches are merged into the repository’s default branch.
+> I believe great software is built through collaboration, clean code, and continuous improvement.
 
 ---
 
@@ -105,15 +106,18 @@ My team contribution experience includes:
 
 | Skill | Details |
 |---|---|
-| **Frontend Engineering** | Building scalable, clean, and production-ready frontend applications |
-| **Next.js Development** | App Router, SSR, ISR, routing, SEO optimization, and deployment |
-| **React Development** | Reusable components, state handling, props management, and clean UI architecture |
-| **TypeScript** | Type-safe frontend development for maintainable applications |
-| **Responsive UI** | Mobile-first layouts, cross-browser compatibility, and clean design systems |
-| **UI Animation** | Framer Motion, GSAP, Lenis, transitions, scroll animations, and micro-interactions |
-| **Performance Optimization** | Lazy loading, image optimization, code splitting, and Core Web Vitals |
-| **API Integration** | Connecting frontend apps with APIs, Firebase, and backend services |
-| **Team Collaboration** | Git, GitHub, branches, pull requests, reviews, and shared development workflows |
+| **Full Stack Development** | Building scalable, maintainable, and production-ready web applications from frontend to backend |
+| **React.js & Next.js** | Reusable components, App Router, SSR, ISR, routing, SEO optimization, and modern application architecture |
+| **Backend Development** | Developing server-side applications and REST APIs using Node.js and Express.js |
+| **TypeScript & JavaScript** | Writing clean, type-safe, and maintainable code for modern web applications |
+| **Database Development** | Working with MongoDB, PostgreSQL, and MySQL for data modeling, integration, and application workflows |
+| **Responsive UI Engineering** | Creating accessible, mobile-first, cross-browser, and user-friendly interfaces |
+| **UI Animation & 3D** | Building smooth interactions using Framer Motion, GSAP, Lenis, and Three.js |
+| **Performance Optimization** | Improving Core Web Vitals through lazy loading, image optimization, caching, and code splitting |
+| **API Design & Integration** | Building and integrating REST APIs, third-party services, authentication, and backend systems |
+| **Desktop Application Development** | Developing cross-platform desktop applications using Electron.js |
+| **Version Control & Collaboration** | Using Git, GitHub, branches, pull requests, code reviews, and shared development workflows |
+| **AI-Assisted Development** | Exploring LLMs, RAG, MCP, embeddings, vector databases, and AI-powered application workflows |
 
 ---
 
