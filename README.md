@@ -383,9 +383,9 @@ I'm open to opportunities where I can contribute across the complete development
 
 <div align="center">
 
-### Clean UI. Smooth UX. Strong Performance. Scalable Code.
+### Clean Architecture. Smooth Experiences. Reliable Performance. Scalable Solutions.
 
-Building modern web experiences, one meaningful interface at a time.
+Building modern full stack applications that combine thoughtful design, strong engineering, and real business value.
 
 </div>
 
@@ -395,13 +395,16 @@ Building modern web experiences, one meaningful interface at a time.
 
 <div align="center">
 
-- 🌟 10+ production-ready projects built and deployed  
-- 💻 Frontend Engineer with a strong focus on modern web interfaces  
-- 🚀 Experienced with Next.js, React, TypeScript, Tailwind CSS, and Firebase  
-- 🎨 Skilled in UI animations, responsive design, and smooth user experiences  
-- ⚡ Performance-focused development approach  
-- 🔗 Comfortable with API integration and frontend data handling  
-- 🤝 Comfortable with team-based Git and GitHub workflows  
+- 🌟 15+ web applications and digital platforms built and deployed  
+- 💻 Full Stack Engineer working across frontend, backend, APIs, and databases  
+- 🚀 Experienced with React.js, Next.js, Node.js, Express.js, JavaScript, and TypeScript  
+- 🗄️ Comfortable working with MongoDB, PostgreSQL, MySQL, Firebase, and application data flows  
+- 🔗 Skilled in REST API development, third-party integrations, authentication, and backend services  
+- 🎨 Experienced in responsive design, UI animation, micro-interactions, and interactive web experiences  
+- ⚡ Focused on performance, maintainability, reusable architecture, and production-ready code  
+- 🤖 Exploring AI Engineering, LLMs, RAG, embeddings, vector databases, MCP, and AI agents  
+- 🖥️ Capable of building cross-platform desktop applications with Electron.js  
+- 🤝 Experienced with Git, GitHub, branches, pull requests, code reviews, and collaborative workflows  
 
 </div>
 
@@ -411,10 +414,12 @@ Building modern web experiences, one meaningful interface at a time.
 
 ### ✨ Made with ❤️ by Muhammad Sohail
 
-**Frontend Engineer | Next.js Developer**
+**Full Stack Engineer | React.js • Next.js • Node.js • TypeScript**
 
-**Last updated: June 2026**
+**Last updated: July 2026**
 
-Feel free to reach out for frontend projects, collaborations, opportunities, or just to chat about modern web development. 🚀
+Open to full stack roles, freelance projects, product collaborations, AI-powered applications, and modern software development opportunities. 🚀
+
+</div>
 
 </div>
