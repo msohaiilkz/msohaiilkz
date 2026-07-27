@@ -6,9 +6,13 @@
 
 I build modern, responsive, and production-ready web interfaces using **Next.js, React.js, TypeScript, Tailwind CSS, Firebase, and advanced animation tools**.
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00D9FF&center=true&width=900&lines=Frontend+Engineer+💻;Next.js+%2B+TypeScript+Developer;Building+Clean+%26+Modern+Web+Interfaces;Creating+Fast+Responsive+%26+Smooth+User+Experiences)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1200&color=00D9FF&center=true&vCenter=true&width=950&lines=Full+Stack+Engineer+💻;React.js+%7C+Next.js+%7C+Node.js;Building+Scalable+Web+Applications;REST+APIs+%7C+MongoDB+%7C+PostgreSQL;Exploring+AI+Engineering+%26+LLMs;Turning+Ideas+Into+Production+Software+🚀" alt="Typing SVG" />
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=msohaiilkz&color=00D9FF&style=flat-square)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=msohaiilkz&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+</p>
 
 </div>
 
@@ -16,21 +20,26 @@ I build modern, responsive, and production-ready web interfaces using **Next.js,
 
 ## 🚀 About Me
 
-I'm a **Full-Stack Developer** focused on building clean, scalable, and high-performance web applications.  
-I specialize in converting ideas, designs, and product requirements into modern, responsive, and user-friendly digital experiences.
+I'm a **Full Stack Engineer** focused on building scalable, high-performance, and production-ready software solutions.
+
+I work across the complete development lifecycle, from designing responsive user interfaces to developing backend services, REST APIs, database-driven workflows, and application integrations.
 
 My work mainly focuses on:
 
-- Building production-ready frontend applications with **Next.js, React, and TypeScript**
-- Creating responsive, accessible, and pixel-perfect user interfaces
-- Implementing clean component-based frontend architecture
-- Improving website performance, SEO, accessibility, and Core Web Vitals
-- Building smooth UI animations and micro-interactions using **Framer Motion, GSAP, and Lenis**
-- Integrating frontend applications with APIs, Firebase, and backend services
-- Working with teams using Git, GitHub, feature branches, and pull requests
+- Building modern web applications with **React.js, Next.js, JavaScript, and TypeScript**
+- Developing backend services and REST APIs using **Node.js and Express.js**
+- Working with **MongoDB, PostgreSQL, MySQL, and Firebase**
+- Designing reusable components and maintainable application architecture
+- Creating responsive, accessible, and user-friendly interfaces
+- Integrating third-party APIs, authentication systems, and backend services
+- Improving performance, SEO, accessibility, and Core Web Vitals
+- Building smooth animations and interactive experiences using **Framer Motion, GSAP, Lenis, and Three.js**
+- Developing cross-platform desktop applications with **Electron.js**
+- Exploring **AI Engineering, LLMs, RAG, embeddings, vector databases, MCP, and AI agents**
+- Collaborating through Git, GitHub, feature branches, pull requests, and code reviews
 
-> **My frontend mindset:**  
-> Clean UI. Smooth UX. Strong performance. Scalable code.
+> **My engineering mindset:**  
+> Clean architecture. Smooth experiences. Reliable performance. Scalable solutions.
 
 ---
 
