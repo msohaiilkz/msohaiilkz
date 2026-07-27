@@ -139,156 +139,162 @@ My collaboration experience includes:
 
 ## 🚀 Featured Projects
 
-### 1. [🎓 Edolutions - Online Education Platform](https://edolutions.com/)
-
-A modern education platform designed to connect students with expert tutors through an intuitive digital experience.
-
-**Key Features**
-
-- Admin dashboard for platform management
-- Teacher dashboard for content and class handling
-- Student dashboard for learning access
-- Responsive website experience
-- Firebase-powered authentication and database
-- Clean UI with smooth user experience
-
-**Tech Stack:** `Next.js` `TypeScript` `Firebase` `Tailwind CSS` `Framer Motion`
+A selection of production applications, business platforms, and interactive web experiences I have worked on.
 
 ---
 
-### 2. [🏢 Aggies - Modern Web Solution](https://github.com/msohaiilkz/Aggies)
+### 🛡️ Enterprise & Business Applications
 
-A TypeScript-powered modern web application focused on clean architecture and responsive UI.
+#### 01. Aggies — Fraud Alert Management Platform
 
-**Key Features**
+A modern fraud-alert management interface designed for reviewing alerts, managing workflows, and supporting operational teams.
 
-- High-performance frontend structure
-- Responsive layouts
-- Modern component-based development
-- Optimized user interface
+**Highlights:** Dashboard workflows · Alert management · Responsive interface · Production deployment
 
-**Tech Stack:** `TypeScript` `React` `Next.js`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://aegis-ui.netlify.app)
 
 ---
 
-### 3. [🚚 Ridely - Transportation & Delivery Platform](https://github.com/msohaiilkz/Ridely)
+#### 02. Shaheen Insurance
 
-A transportation and delivery-focused frontend experience designed for smooth booking and user interaction.
+A modern insurance platform designed to provide a clear and accessible digital experience for insurance products and services.
 
-**Key Features**
+**Highlights:** Insurance services · Responsive design · Structured user journey · Modern interface
 
-- Static frontend with dynamic booking form
-- Mobile-responsive interface
-- Clean user journey
-- Delivery-focused landing experience
-
-**Tech Stack:** `HTML5` `CSS3` `JavaScript`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://shaheeninsurance.netlify.app)
 
 ---
 
-### 4. [💼 MH Tech Solution](https://github.com/msohaiilkz/mh-tech-solution)
+#### 03. Greycoast Capital
 
-A professional tech consulting website built with a clean corporate interface.
+A professional financial-services website developed with a premium corporate interface and structured service presentation.
 
-**Key Features**
+**Highlights:** Financial services · Corporate UI · Responsive layouts · Professional branding
 
-- Modern website design
-- Corporate presentation layout
-- Service-based sections
-- Performance-focused frontend
-
-**Tech Stack:** `HTML` `CSS` `JavaScript`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://greycoast.netlify.app)
 
 ---
 
-### 5. [🌳 Trees System Solution](https://github.com/msohaiilkz/Trees-System-Solution)
+#### 04. Staffora Global
 
-An environmental management concept focused on sustainability and data presentation.
+A global staffing and recruitment platform designed to present workforce solutions and professional hiring services.
 
-**Key Features**
+**Highlights:** Recruitment platform · Staffing services · Responsive interface · Modern business design
 
-- Eco-focused platform concept
-- Data management interface
-- Clean informational sections
-- Responsive frontend
-
-**Tech Stack:** `HTML5` `CSS3` `JavaScript`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://stafforalglobal.netlify.app)
 
 ---
 
-### 6. [🤖 Sentient AI](https://github.com/msohaiilkz/Sentient-Ai)
+#### 05. Mentor Club Global
 
-An AI-focused application concept designed around intelligent features and interactive user experience.
+A mentorship and professional-development platform focused on learning, leadership, and global community engagement.
 
-**Key Features**
+**Highlights:** Mentorship platform · Content management · Community experience · Responsive layouts
 
-- AI-based concept structure
-- Interactive frontend experience
-- Modern JavaScript implementation
-- Clean user interface
-
-**Tech Stack:** `JavaScript` `React`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mentorclubglobal.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/mentor_club_global)
 
 ---
 
-### 7. [🏢 Staffora Global](https://staffora-global.vercel.app/)
+### 🌐 Corporate & Digital Solutions
 
-A global staffing and recruitment platform designed for professional hiring workflows.
+#### 06. Pronexuss
 
-**Key Features**
+A professional business platform designed with modern layouts, structured content, and a user-focused digital experience.
 
-- Recruitment-focused interface
-- Job and staffing presentation sections
-- Cloud-hosted deployment
-- User-friendly responsive design
-
-**Tech Stack:** `JavaScript` `React` `Vercel`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://pronexuss.netlify.app)
 
 ---
 
-### 8. [🌐 Mentor Club Global](https://github.com/msohaiilkz/mentor_club_global)
+#### 07. SageConz
 
-A mentorship community platform concept focused on global learning and connection.
+A corporate consulting website focused on presenting services, expertise, and business solutions through a clean interface.
 
-**Key Features**
-
-- Mentor and mentee platform experience
-- Community-driven structure
-- Learning resource sections
-- Responsive frontend
-
-**Tech Stack:** `JavaScript` `React`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sageconz.netlify.app)
 
 ---
 
-### 9. [📱 Enpro - Professional Solutions](https://github.com/msohaiilkz/enpro)
+#### 08. Ezee Digital Lab
 
-An enterprise-style solution platform focused on professional services and scalable frontend architecture.
+A digital agency platform created to showcase technology, design, and business transformation services.
 
-**Key Features**
-
-- Enterprise-focused UI
-- Secure and structured layout
-- API-ready architecture
-- Dashboard-style sections
-
-**Tech Stack:** `TypeScript` `Next.js` `Firebase`
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://ezeedigitallab.netlify.app)
 
 ---
 
-### 10. [🏭 Methologik - Industrial Solutions](https://github.com/msohaiilkz/methologik)
+#### 09. MH Tech Solution
 
-An industrial solutions platform designed for process, productivity, and business presentation.
+A professional technology-services website built with a structured corporate layout and responsive user interface.
 
-**Key Features**
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mh-techsolution.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/mh-tech-solution)
 
-- Industrial business interface
-- Process-focused sections
-- Reporting and productivity concept
-- Responsive layout
+---
 
-**Tech Stack:** `HTML5` `CSS3` `JavaScript`
+#### 10. Mufazim PEXE
 
+A modern professional platform developed with clear content sections, responsive layouts, and an engaging interface.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mufazimpexe.netlify.app)
+
+---
+
+### 🎓 Education & Intelligent Experiences
+
+#### 11. Edolutions
+
+An online education platform designed to connect students, teachers, and administrators through a structured learning experience.
+
+**Highlights:** Role-based dashboards · Firebase integration · Responsive UI · Learning workflows
+
+[![Live Website](https://img.shields.io/badge/Live_Website-Visit_Project-0070F3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://edolutions.com/)
+
+---
+
+#### 12. Erudex
+
+An education-focused digital platform developed to provide a modern and accessible learning experience.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://erudex01.netlify.app)
+
+---
+
+#### 13. Sentient AI
+
+An AI-inspired application focused on intelligent interactions, modern interface design, and an engaging user experience.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sentientai2.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/Sentient-Ai)
+
+---
+
+### 🚚 Service & Environmental Platforms
+
+#### 14. Ridely
+
+A transportation and delivery platform designed around a simple booking experience and responsive user journey.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://ridelyy.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/Ridely)
+
+---
+
+#### 15. Trees System Solution
+
+An environmental platform concept focused on sustainability, structured information, and responsive web design.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Project-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://treessystemsolution.netlify.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz/Trees-System-Solution)
+
+---
+
+<div align="center">
+
+### Explore More
+
+[![GitHub Repositories](https://img.shields.io/badge/View_All_Projects-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/msohaiilkz?tab=repositories)
+
+</div>
 ---
 
 ## 🧠 Currently Learning & Exploring
