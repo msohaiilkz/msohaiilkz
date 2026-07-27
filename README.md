@@ -336,23 +336,32 @@ I build interfaces that are not only functional, but also smooth, responsive, an
 
 ## 🤝 Open to Collaboration
 
-I'm open to:
+I'm open to opportunities where I can contribute across the complete development lifecycle, from building responsive interfaces to developing APIs, managing databases, and delivering production-ready applications.
 
-- Frontend Engineer roles
-- Remote frontend opportunities
-- Freelance website and web app projects
-- UI implementation projects
-- Next.js and React-based products
-- Startup and product-based collaborations
-- Team-based frontend development work
+### I'm open to:
 
-I enjoy working on products that are:
+- Full Stack Engineer roles
+- Remote full stack development opportunities
+- React.js and Next.js application development
+- Node.js and Express.js backend projects
+- REST API development and third-party integrations
+- MongoDB, PostgreSQL, and MySQL-based applications
+- SaaS, startup, and product-based collaborations
+- AI-powered web application projects
+- Electron.js desktop application development
+- Freelance websites and custom web platforms
+- Team-based development and long-term product work
 
-- Fast and responsive
-- Visually clean
-- Easy to use
-- Scalable and maintainable
-- Built with modern frontend technologies
+### I enjoy building products that are:
+
+- Fast, responsive, and performance-focused
+- Scalable and easy to maintain
+- Secure and production-ready
+- Clean, modern, and user-friendly
+- Supported by reliable APIs and databases
+- Built with reusable components and clean architecture
+- Optimized for desktop and mobile devices
+- Designed to solve real-world business problems
 
 ---
 
@@ -360,11 +369,11 @@ I enjoy working on products that are:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-sohai.dev07%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sohai.dev07@gmail.com)
+[![Email](https://img.shields.io/badge/Email-sohai.dev07%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sohail.dev07@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Sohail-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-sohail-0227a7224)
 [![GitHub](https://img.shields.io/badge/GitHub-msohaiilkz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/msohaiilkz)
-[![Portfolio](https://img.shields.io/badge/Portfolio-msohailkz.github.io-121212?style=for-the-badge&logo=vercel&logoColor=white)](https://msohailkz.github.io)
-[![Twitter](https://img.shields.io/badge/Twitter-msohaiilkz-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/msohaiilkz)
+[![Portfolio](https://img.shields.io/badge/Portfolio-msohailkz.github.io-121212?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio.netlify.app)
+
 
 </div>
 
