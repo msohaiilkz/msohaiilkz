@@ -32,6 +32,7 @@ jobs:
           python -m pip install --disable-pip-version-check 'fonttools[woff]>=4.55,<5'
           sudo apt-get update -qq
           sudo apt-get install -y -qq fonts-firacode
+                    python -m pip install "Pillow>=10,<13"
 
       - name: Fetch real public GitHub contributions and repo metadata
         env:
