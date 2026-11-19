@@ -1,0 +1,30 @@
+{
+  "username": "msohaiilkz",
+  "name": "Muhammad Sohail",
+  "role": "Full-Stack Engineer  |  Next.js  |  Node.js  |  AI Engineering",
+  "tagline": "Building scalable web platforms, reliable backends and practical AI experiences.",
+  "focus": ["React / Next.js", "Node.js / TypeScript", "HealthTech SaaS", "LLMs / RAG"],
+  "brand": {
+    "background": "#0d1117",
+    "panel": "#111c2d",
+    "panel_alt": "#14233a",
+    "cyan": "#00D9FF",
+    "blue": "#0077FF",
+    "text": "#f4f8ff",
+    "muted": "#9fb3cc",
+    "line": "#284263"
+  },
+  "portrait_path": null,
+  "links": [
+    {"key": "projects", "title": "PROJECTS", "subtitle": "Explore my repositories", "url": "https://github.com/msohaiilkz?tab=repositories", "icon": "code"},
+    {"key": "linkedin", "title": "LINKEDIN", "subtitle": "Engineering notes & updates", "url": "https://www.linkedin.com/in/muhammad-sohail-0227a7224", "icon": "network"},
+    {"key": "contact", "title": "LET'S CONNECT", "subtitle": "sohail.dev07@gmail.com", "url": "mailto:sohail.dev07@gmail.com", "icon": "mail"}
+  ],
+  "featured_repos": [
+    {"repo": "msohaiilkz/mentor_club_global", "name": "Mentor Club Global", "description": "Mentorship and learning platform with structured content and community experiences.", "tags": ["Web Platform", "Community", "Education"], "demo": "https://mentorclubglobal.netlify.app"},
+    {"repo": "msohaiilkz/mh-tech-solution", "name": "MH Tech Solution", "description": "Technology-services website with responsive layouts and clear service journeys.", "tags": ["Corporate Web", "Responsive UI"], "demo": "https://mh-techsolution.netlify.app"},
+    {"repo": "msohaiilkz/Sentient-Ai", "name": "Sentient AI", "description": "AI-focused application exploring intuitive and engaging user experiences.", "tags": ["AI Experience", "Frontend"], "demo": "https://sentientai2.netlify.app"},
+    {"repo": "msohaiilkz/Ridely", "name": "Ridely", "description": "Transportation and delivery experience designed around clear booking flows.", "tags": ["Booking", "Web App"], "demo": "https://ridelyy.netlify.app"},
+    {"repo": "msohaiilkz/Trees-System-Solution", "name": "Trees System Solution", "description": "Environmental platform concept with a focus on sustainability and accessible UI.", "tags": ["Sustainability", "Frontend"], "demo": "https://treessystemsolution.netlify.app"}
+  ]
+}
