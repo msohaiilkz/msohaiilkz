@@ -6,6 +6,9 @@ Requires GITHUB_TOKEN (GitHub Actions' automatic token is sufficient for public 
 """
 from __future__ import annotations
 import datetime as dt
+import io
+import time
+from PIL import Image, ImageOps
 import json
 import os
 from pathlib import Path
@@ -41,6 +44,7 @@ def api_json(url: str, *, body: dict | None = None) -> dict:
 def main() -> int:
     query = """query($login: String!) {
       user(login: $login) {
+        avatarUrl(size: 480)
         contributionsCollection {
           contributionCalendar {
             totalContributions
@@ -92,6 +96,39 @@ def main() -> int:
         temp.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         temp.replace(DEST)
         print(f"Updated {DEST.relative_to(ROOT)}: {len(days)} days, {len(repos)} repos")
+        # GitHub's public profile avatar is embedded into hero.svg as base64 PNG.
+        # Downloading the avatar is non-destructive: if the request fails, an
+        # existing local avatar remains intact and the card renderer can fall
+        # back to a designed initials illustration.
+        avatar_url = result['data']['user'].get('avatarUrl') or f'https://github.com/{USERNAME}.png?size=480'
+        avatar_dest = ROOT / 'assets' / 'github-avatar.png'
+        avatar_dest.parent.mkdir(parents=True, exist_ok=True)
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(avatar_url, headers={
+                    'User-Agent': 'sohail-profile-cards/2.0',
+                    'Accept': 'image/png,image/jpeg,image/webp,*/*',
+                })
+                with urllib.request.urlopen(req, timeout=30) as response:
+                    raw = response.read(3 * 1024 * 1024 + 1)
+                if len(raw) > 3 * 1024 * 1024:
+                    raise ValueError('Avatar download too large')
+                with Image.open(io.BytesIO(raw)) as photo:
+                    photo = ImageOps.exif_transpose(photo).convert('RGB')
+                    photo = ImageOps.fit(photo, (380, 380), method=Image.Resampling.LANCZOS)
+                    tmp_avatar = avatar_dest.with_suffix('.tmp.png')
+                    photo.save(tmp_avatar, format='PNG', optimize=True)
+                if tmp_avatar.stat().st_size > 1024 * 1024:
+                    tmp_avatar.unlink(missing_ok=True)
+                    raise ValueError('Processed avatar exceeds 1 MB')
+                tmp_avatar.replace(avatar_dest)
+                print('Downloaded GitHub profile portrait for hero.svg')
+                break
+            except (OSError, ValueError, urllib.error.URLError) as exc:
+                if attempt == 2:
+                    print(f'WARNING: Avatar unavailable, retaining previous image or initials fallback: {exc}', file=sys.stderr)
+                else:
+                    time.sleep(2)
         return 0
     except (RuntimeError, ValueError, KeyError, TypeError, urllib.error.URLError, urllib.error.HTTPError) as exc:
         print(f"Contribution refresh FAILED; previous JSON preserved: {exc}", file=sys.stderr)

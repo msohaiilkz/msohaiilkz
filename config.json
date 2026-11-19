@@ -1,9 +1,14 @@
 {
   "username": "msohaiilkz",
   "name": "Muhammad Sohail",
-  "role": "Full-Stack Engineer  |  Next.js  |  Node.js  |  AI Engineering",
-  "tagline": "Building scalable web platforms, reliable backends and practical AI experiences.",
-  "focus": ["React / Next.js", "Node.js / TypeScript", "HealthTech SaaS", "LLMs / RAG"],
+  "role": "FULL STACK ENGINEER  /  NEXT.JS  /  NODE.JS",
+  "tagline": "Building fast interfaces, reliable APIs and intelligent products.",
+  "focus": [
+    "React / Next.js",
+    "Node / TypeScript",
+    "SQL / NoSQL",
+    "AI / RAG"
+  ],
   "brand": {
     "background": "#0d1117",
     "panel": "#111c2d",
@@ -14,17 +19,193 @@
     "muted": "#9fb3cc",
     "line": "#284263"
   },
-  "portrait_path": null,
+  "portrait_path": "assets/github-avatar.png",
   "links": [
-    {"key": "projects", "title": "PROJECTS", "subtitle": "Explore my repositories", "url": "https://github.com/msohaiilkz?tab=repositories", "icon": "code"},
-    {"key": "linkedin", "title": "LINKEDIN", "subtitle": "Engineering notes & updates", "url": "https://www.linkedin.com/in/muhammad-sohail-0227a7224", "icon": "network"},
-    {"key": "contact", "title": "LET'S CONNECT", "subtitle": "sohail.dev07@gmail.com", "url": "mailto:sohail.dev07@gmail.com", "icon": "mail"}
+    {
+      "key": "projects",
+      "title": "PROJECTS",
+      "subtitle": "Explore my repositories",
+      "url": "https://github.com/msohaiilkz?tab=repositories",
+      "icon": "code"
+    },
+    {
+      "key": "linkedin",
+      "title": "LINKEDIN",
+      "subtitle": "Engineering notes & updates",
+      "url": "https://www.linkedin.com/in/muhammad-sohail-0227a7224",
+      "icon": "network"
+    },
+    {
+      "key": "contact",
+      "title": "LET'S CONNECT",
+      "subtitle": "sohail.dev07@gmail.com",
+      "url": "mailto:sohail.dev07@gmail.com",
+      "icon": "mail"
+    }
   ],
   "featured_repos": [
-    {"repo": "msohaiilkz/mentor_club_global", "name": "Mentor Club Global", "description": "Mentorship and learning platform with structured content and community experiences.", "tags": ["Web Platform", "Community", "Education"], "demo": "https://mentorclubglobal.netlify.app"},
-    {"repo": "msohaiilkz/mh-tech-solution", "name": "MH Tech Solution", "description": "Technology-services website with responsive layouts and clear service journeys.", "tags": ["Corporate Web", "Responsive UI"], "demo": "https://mh-techsolution.netlify.app"},
-    {"repo": "msohaiilkz/Sentient-Ai", "name": "Sentient AI", "description": "AI-focused application exploring intuitive and engaging user experiences.", "tags": ["AI Experience", "Frontend"], "demo": "https://sentientai2.netlify.app"},
-    {"repo": "msohaiilkz/Ridely", "name": "Ridely", "description": "Transportation and delivery experience designed around clear booking flows.", "tags": ["Booking", "Web App"], "demo": "https://ridelyy.netlify.app"},
-    {"repo": "msohaiilkz/Trees-System-Solution", "name": "Trees System Solution", "description": "Environmental platform concept with a focus on sustainability and accessible UI.", "tags": ["Sustainability", "Frontend"], "demo": "https://treessystemsolution.netlify.app"}
+    {
+      "repo": "msohaiilkz/mentor_club_global",
+      "name": "Mentor Club Global",
+      "description": "Mentorship and learning platform with structured content and community experiences.",
+      "tags": [
+        "Web Platform",
+        "Community",
+        "Education"
+      ],
+      "demo": "https://mentorclubglobal.netlify.app"
+    },
+    {
+      "repo": "msohaiilkz/mh-tech-solution",
+      "name": "MH Tech Solution",
+      "description": "Technology-services website with responsive layouts and clear service journeys.",
+      "tags": [
+        "Corporate Web",
+        "Responsive UI"
+      ],
+      "demo": "https://mh-techsolution.netlify.app"
+    },
+    {
+      "repo": "msohaiilkz/Sentient-Ai",
+      "name": "Sentient AI",
+      "description": "AI-focused application exploring intuitive and engaging user experiences.",
+      "tags": [
+        "AI Experience",
+        "Frontend"
+      ],
+      "demo": "https://sentientai2.netlify.app"
+    },
+    {
+      "repo": "msohaiilkz/Ridely",
+      "name": "Ridely",
+      "description": "Transportation and delivery experience designed around clear booking flows.",
+      "tags": [
+        "Booking",
+        "Web App"
+      ],
+      "demo": "https://ridelyy.netlify.app"
+    },
+    {
+      "repo": "msohaiilkz/Trees-System-Solution",
+      "name": "Trees System Solution",
+      "description": "Environmental platform concept with a focus on sustainability and accessible UI.",
+      "tags": [
+        "Sustainability",
+        "Frontend"
+      ],
+      "demo": "https://treessystemsolution.netlify.app"
+    }
+  ],
+  "other_projects": [
+    {
+      "name": "Aggies",
+      "type": "Fraud Alert Management Platform",
+      "description": "Enterprise fraud alert review, assignment tracking, operational dashboards and investigation workflows.",
+      "tags": [
+        "Fraud Alerts",
+        "Dashboards",
+        "Workflows"
+      ],
+      "demo": "https://aegis-ui.netlify.app"
+    },
+    {
+      "name": "Shaheen Insurance",
+      "type": "Digital Insurance Platform",
+      "description": "A responsive insurance experience designed around products, customer journeys and accessible service flows.",
+      "tags": [
+        "Insurance",
+        "Customer Journeys",
+        "UI"
+      ],
+      "demo": "https://shaheeninsurance.netlify.app"
+    },
+    {
+      "name": "Greycoast Capital",
+      "type": "Financial Services Website",
+      "description": "A premium corporate website presenting financial services, business expertise and brand capabilities.",
+      "tags": [
+        "Finance",
+        "Corporate",
+        "Design"
+      ],
+      "demo": "https://greycoast.netlify.app"
+    },
+    {
+      "name": "Staffora Global",
+      "type": "Staffing and Recruitment Platform",
+      "description": "A global staffing platform showcasing recruitment services, hiring solutions and workforce opportunities.",
+      "tags": [
+        "Recruitment",
+        "Staffing",
+        "Responsive"
+      ],
+      "demo": "https://stafforalglobal.netlify.app"
+    },
+    {
+      "name": "Pronexuss",
+      "type": "Professional Business Platform",
+      "description": "A modern business website with structured services, clear content and user-focused experiences.",
+      "tags": [
+        "Business",
+        "Content",
+        "UX"
+      ],
+      "demo": "https://pronexuss.netlify.app"
+    },
+    {
+      "name": "SageConz",
+      "type": "Corporate Consulting Website",
+      "description": "A consulting-focused site presenting business expertise, services and organizational capabilities.",
+      "tags": [
+        "Consulting",
+        "Corporate",
+        "UI"
+      ],
+      "demo": "https://sageconz.netlify.app"
+    },
+    {
+      "name": "Ezee Digital Lab",
+      "type": "Digital Agency Platform",
+      "description": "A digital-services platform showcasing technology, design and business transformation offerings.",
+      "tags": [
+        "Agency",
+        "Technology",
+        "Design"
+      ],
+      "demo": "https://ezeedigitallab.netlify.app"
+    },
+    {
+      "name": "Mufazim PEXE",
+      "type": "Professional Corporate Platform",
+      "description": "A modern business website featuring responsive layouts, structured content and a polished experience.",
+      "tags": [
+        "Corporate",
+        "Responsive",
+        "UX"
+      ],
+      "demo": "https://mufazimpexe.netlify.app"
+    },
+    {
+      "name": "Edolutions",
+      "type": "Education Platform",
+      "description": "Learning platform connecting students, teachers and administrators through role-based dashboards.",
+      "tags": [
+        "Education",
+        "Firebase",
+        "Dashboards"
+      ],
+      "demo": "https://edolutions.com/"
+    },
+    {
+      "name": "Erudex",
+      "type": "Education Platform",
+      "description": "An education-focused digital platform providing a modern, accessible learning experience.",
+      "tags": [
+        "Education",
+        "Learning",
+        "UI"
+      ],
+      "demo": "https://erudex01.netlify.app"
+    }
   ]
 }

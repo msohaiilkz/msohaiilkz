@@ -184,48 +184,45 @@ def icon(name, x, y, scale=1):
 
 
 def hero():
-    w,h = 1200,306
-    inner = rect(44,43,5,212,'url(#accent)',2)
-    inner += rect(69,41,207,33,'#183451',16)
-    inner += el_text(88,63,'ENGINEERING PORTFOLIO',14,fill=B['cyan'],weight=700,family='mono')
-    inner += el_text(70,139,CFG['name'],62,weight=800)
-    inner += el_text(73,179,CFG['role'],23,fill=B['cyan'],weight=600)
-    inner += el_text(73,218,CFG['tagline'],19,fill=B['muted'])
-    inner += line(73,246,720,246,sw=1.5)
-    for i, item in enumerate(CFG.get('focus',[])[:4]):
-        x=73+i*163
-        inner += rect(x,261,155,29,'#182943',12,B['line'])
-        inner += el_text(x+10,280,item,12,fill=B['text'],weight=600)
+    w,h=1200,380
+    inner = rect(45,42,6,290,'url(#accent)',3)
+    inner += rect(79,45,231,33,'#163b57',16,B['line'])
+    inner += el_text(96,67,'ENGINEER  /  BUILDER  /  CREATOR',12,fill=B['cyan'],weight=700,family='mono')
+    inner += el_text(77,160,'Muhammad Sohail',66,weight=800)
+    inner += el_text(80,203,'FULL STACK ENGINEER  /  NEXT.JS  /  NODE.JS',19,fill=B['cyan'],weight=700,family='mono')
+    inner += el_text(80,244,CFG['tagline'],20,fill=B['muted'])
+    inner += line(81,269,754,269,sw=1.3)
+    for i,item in enumerate(CFG.get('focus',[])[:4]):
+        x=80+i*173
+        inner += rect(x,290,164,36,'#18314d',11,B['line'])
+        inner += el_text(x+13,313,item,13,weight=650)
+    inner += el_text(81,352,'15+ DIGITAL PROJECTS   /   PRODUCTION SYSTEMS   /   AI EXPLORATION',12,fill=B['muted'],family='mono',weight=600)
+    inner += '<defs><clipPath id="portraitClip"><circle cx="1000" cy="184" r="110"/></clipPath></defs>'
+    inner += circle(1000,184,135,'none',f'stroke="{B["cyan"]}" stroke-width="1.2" opacity=".30" stroke-dasharray="5 12" class="trace"')
+    inner += circle(1000,184,122,'none',f'stroke="{B["blue"]}" stroke-width="2" opacity=".68"')
+    inner += circle(1000,184,111,'#123b58')
     portrait = CFG.get('portrait_path')
-    if portrait:
-        file = (ROOT / portrait).resolve()
-        if not file.is_file() or not str(file).startswith(str(ROOT.resolve())):
-            raise ValueError('portrait_path must be an existing file inside the repository')
+    file = (ROOT / portrait).resolve() if portrait else None
+    if file and file.is_file() and file.is_relative_to(ROOT.resolve()):
         if file.stat().st_size > 1024*1024:
             raise ValueError('Portrait exceeds 1 MB; compress it first')
         mime = mimetypes.guess_type(file.name)[0]
         if mime not in ('image/png','image/jpeg','image/webp'):
             raise ValueError('Portrait must be PNG, JPEG, or WebP')
         encoded = base64.b64encode(file.read_bytes()).decode('ascii')
-        inner += '<defs><clipPath id="portraitClip"><circle cx="994" cy="150" r="96"/></clipPath></defs>'
-        inner += f'<image href="data:{mime};base64,{encoded}" x="898" y="54" width="192" height="192" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>'
-        inner += circle(994,150,97,'none',f'stroke="{B["cyan"]}" stroke-width="3"')
+        inner += f'<image href="data:{mime};base64,{encoded}" x="890" y="74" width="220" height="220" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>'
     else:
-        inner += rect(842,48,291,211,'#102440',23,'#2a5981',1.5)
-        inner += rect(861,67,253,30,'#172f4b',9)
-        for cx,color in [(881,'#ff6b79'),(901,'#ffd27d'),(921,'#72e2bd')]:
-            inner += circle(cx,82,4,color)
-        inner += el_text(869,124,'const developer = {',18,fill=B['cyan'],family='mono')
-        inner += el_text(884,155,'focus: "reliability",',16,fill=B['text'],family='mono')
-        inner += el_text(884,185,'stack: "full-stack",',16,fill=B['text'],family='mono')
-        inner += el_text(869,217,'};',18,fill=B['cyan'],family='mono')
-        inner += circle(1107,246,20,B['cyan'],'opacity=".13" class="glow"')
-        if not STATIC:
-            inner += f'<circle class="smil-only" cx="1107" cy="246" r="9" fill="{B["cyan"]}" opacity=".55"><animate attributeName="opacity" values="0.45;0.95;0.45" dur="3.6s" repeatCount="indefinite"/></circle>'
-        else:
-            inner += circle(1107,246,9,B['cyan'],'opacity=".7"')
-    return svg_shell('Muhammad Sohail profile hero',w,h,inner,description=CFG['tagline'])
-
+        inner += circle(1000,184,109,'#173550')
+        inner += circle(1000,169,51,'#204d6e')
+        inner += el_text(1000,188,'MS',49,weight=800,fill=B['text'],extra='text-anchor="middle"')
+    inner += circle(1000,184,111,'none',f'stroke="{B["cyan"]}" stroke-width="3"')
+    inner += circle(1097,104,9,B['cyan'],'class="glow"')
+    inner += rect(884,310,232,31,'#143149',14,B['line'])
+    inner += circle(903,326,5,'#56e4ae','class="glow"')
+    inner += el_text(918,331,'OPEN TO COLLABORATION',13,fill=B['text'],weight=650,family='mono')
+    if not STATIC:
+        inner += f'<circle class="smil-only" cx="1097" cy="104" r="9" fill="{B["cyan"]}" opacity=".6"><animate attributeName="opacity" values=".4;1;.4" dur="3.5s" repeatCount="indefinite"/></circle>'
+    return svg_shell('Muhammad Sohail — Full Stack Engineer',w,h,inner,description=CFG['tagline'],delay=.02)
 
 def tile(link, delay):
     w,h=390,157
@@ -381,32 +378,120 @@ def slug(s):
 
 
 def repo_card(item,i):
-    w,h=1200,189
+    w,h=580,216
     repo=item['repo']
     meta=DATA.get('repos',{}).get(repo,{})
-    inner=rect(34,30,7,127,'url(#accent)',3)
-    inner+=rect(58,30,65,39,'#153756',12,B['line'])
-    inner+=el_text(91,56,f'{i:02d}',19,fill=B['cyan'],weight=700,family='mono',extra='text-anchor="middle"')
-    inner+=el_text(145,60,item['name'],29,weight=800)
-    inner+=el_text(145,89,'PUBLIC REPOSITORY  /  FEATURED WORK',12,fill=B['cyan'],family='mono',weight=600)
-    for j,text in enumerate(wrap(item['description'],82,2)):
-        inner+=el_text(145,118+j*23,text,17,fill=B['muted'])
-    x=145
-    for tag in item.get('tags',[])[:4]:
-        width=max(88, min(180,18+len(tag)*8))
-        inner+=rect(x,157,width,25,'#193550',10,B['line'])
-        inner+=el_text(x+10,174,tag,12,fill=B['text'],weight=600)
-        x+=width+10
-    inner+=rect(960,39,198,112,'#112841',17,'#275176')
-    if meta:
-        inner+=el_text(978,71,'★  '+str(meta['stars'])+'  STARS',17,fill=B['cyan'],weight=700)
-        inner+=el_text(978,99,'LANGUAGE',11,fill=B['muted'],family='mono')
-        inner+=el_text(978,123,meta.get('language') or 'Not specified',18,weight=600)
-    else:
-        inner+=el_text(978,74,'VIEW SOURCE',19,fill=B['cyan'],weight=700)
-        inner+=el_text(978,102,'Open on GitHub',14,fill=B['muted'])
-        inner+=arrow_icon(1122,119)
-    return svg_shell(item['name']+' featured repository',w,h,inner,delay=1.05+i*.13,description=item['description'])
+    inner=rect(22,23,5,157,'url(#accent)',2)
+    inner+=rect(42,23,44,30,'#163c58',9,B['line'])
+    inner+=el_text(64,44,f'{i:02d}',14,fill=B['cyan'],weight=750,family='mono',extra='text-anchor="middle"')
+    inner+=el_text(100,49,item['name'],23,weight=800)
+    lang=meta.get('language') or 'GITHUB PROJECT'
+    inner+=el_text(44,80,'FEATURED REPOSITORY   /   '+str(lang).upper(),11,fill=B['cyan'],weight=700,family='mono')
+    for j,line_text in enumerate(wrap(item['description'],65,2)):
+        inner+=el_text(44,109+j*21,line_text,14,fill=B['muted'])
+    x=44
+    for tag in item.get('tags',[])[:3]:
+        width=max(80,min(150,18+len(tag)*8))
+        inner+=rect(x,155,width,25,'#173550',9,B['line'])
+        inner+=el_text(x+9,172,tag,11,weight=650)
+        x+=width+9
+    inner+=line(44,188,537,188,sw=1.1)
+    stars=f"{meta['stars']} STARS" if meta and 'stars' in meta else 'PUBLIC REPOSITORY'
+    inner+=el_text(45,207,stars,12,fill=B['muted'],family='mono',weight=650)
+    inner+=el_text(396,207,'VIEW SOURCE',12,fill=B['cyan'],family='mono',weight=700)
+    inner+=arrow_icon(536,194)
+    return svg_shell(item['name']+' featured repository',w,h,inner,delay=1.25+i*.10,description=item['description'])
+
+
+def expertise_card():
+    w,h=1200,270
+    inner=rect(38,28,6,42,'url(#accent)',3)
+    inner+=el_text(63,61,'ENGINEERING CAPABILITIES',29,weight=800)
+    inner+=el_text(64,87,'From polished interfaces to reliable services and data-driven products',15,fill=B['muted'])
+    panels=[
+        ('01','FRONTEND','React / Next.js','TypeScript / Accessible UI'),
+        ('02','BACKEND','Node.js / Express.js','REST APIs / Integrations'),
+        ('03','DATA & SYSTEMS','MySQL / PostgreSQL','MongoDB / Firebase'),
+        ('04','INTELLIGENT APPS','LLMs / RAG / Embeddings','MCP / Agent Workflows')]
+    for i,(num,title,first,second) in enumerate(panels):
+        x=39+i*291
+        inner+=rect(x,112,273,130,'url(#cardfill)',16,B['line'])
+        inner+=rect(x+15,128,43,30,'#143c5a',10,B['line'])
+        inner+=el_text(x+36,149,num,14,fill=B['cyan'],weight=700,family='mono',extra='text-anchor="middle"')
+        inner+=el_text(x+15,185,title,17,weight=800)
+        inner+=el_text(x+15,211,first,14,fill=B['muted'])
+        inner+=el_text(x+15,232,second,13,fill=B['muted'])
+    return svg_shell('Engineering capabilities',w,h,inner,delay=.54)
+
+
+def stack_card():
+    w,h=1200,262
+    inner=rect(38,27,6,42,'url(#accent)',3)
+    inner+=el_text(63,60,'THE STACK',29,weight=800)
+    inner+=el_text(64,87,'Technologies I use to design, ship and maintain modern applications',15,fill=B['muted'])
+    rows=[('FRONTEND',['React.js','Next.js','TypeScript','Tailwind','Framer Motion','GSAP','Three.js']),
+          ('BACKEND',['Node.js','Express.js','REST APIs','Authentication','Electron.js']),
+          ('DATA + WORKFLOW',['MySQL','PostgreSQL','MongoDB','Firebase','Git','GitHub','Figma'])]
+    for i,(label,items) in enumerate(rows):
+        y=113+i*45
+        inner+=el_text(50,y+20,label,14,fill=B['cyan'],weight=750,family='mono')
+        x=272
+        for item in items:
+            width=max(87,round(len(item)*8.7)+23)
+            inner+=rect(x,y,width,31,'#172e49',9,B['line'])
+            inner+=el_text(x+12,y+21,item,13,weight=650)
+            x+=width+10
+    return svg_shell('Technology stack',w,h,inner,delay=.70)
+
+
+def focus_card():
+    w,h=1200,248
+    inner=rect(38,27,6,42,'url(#accent)',3)
+    inner+=el_text(63,60,'CURRENTLY EXPLORING',29,weight=800)
+    inner+=el_text(64,86,'Building on full-stack foundations with modern AI and interface engineering',15,fill=B['muted'])
+    panels=[('AI ENGINEERING','LLMs, RAG and embeddings','Vector databases / MCP / agents'),
+            ('INTERACTIVE UI','Three.js, GSAP and Framer Motion','Performance / motion / accessibility'),
+            ('PRODUCT ENGINEERING','API architecture and integrations','Maintainability / scalability / SEO')]
+    for i,(title,a,b) in enumerate(panels):
+        x=38+i*390
+        inner+=rect(x,109,370,110,'url(#cardfill)',15,B['line'])
+        inner+=rect(x+15,127,4,66,'url(#accent)',2)
+        inner+=el_text(x+33,143,title,18,weight=800)
+        inner+=el_text(x+33,174,a,15,fill=B['muted'])
+        inner+=el_text(x+33,199,b,13,fill=B['muted'])
+    return svg_shell('Current engineering focus',w,h,inner,delay=2.60)
+
+
+def project_card(item,i):
+    w,h=580,216
+    inner=rect(22,23,5,158,'url(#accent)',2)
+    inner+=rect(42,23,44,30,'#163c58',9,B['line'])
+    inner+=el_text(64,44,f'{i:02d}',14,fill=B['cyan'],weight=750,family='mono',extra='text-anchor="middle"')
+    inner+=el_text(100,49,item['name'],23,weight=800)
+    inner+=el_text(44,80,item['type'].upper(),11,fill=B['cyan'],weight=700,family='mono')
+    for j,line_text in enumerate(wrap(item['description'],65,2)):
+        inner+=el_text(44,109+j*21,line_text,14,fill=B['muted'])
+    x=44
+    for tag in item.get('tags',[])[:3]:
+        width=max(80,min(150,18+len(tag)*8))
+        inner+=rect(x,155,width,25,'#173550',9,B['line'])
+        inner+=el_text(x+9,172,tag,11,weight=650)
+        x+=width+9
+    inner+=line(44,188,537,188,sw=1.1)
+    inner+=el_text(46,207,'VIEW LIVE PROJECT',12,fill=B['cyan'],family='mono',weight=700)
+    inner+=arrow_icon(536,194)
+    return svg_shell(item['name']+' live project',w,h,inner,delay=1.80+i*.09,description=item['description'])
+
+
+def footer_card():
+    w,h=1200,181
+    inner=rect(37,27,6,126,'url(#accent)',3)
+    inner+=el_text(65,79,"LET'S BUILD SOMETHING USEFUL.",38,weight=800)
+    inner+=el_text(67,116,'Full-stack engineering  /  Product collaboration  /  AI-powered applications',18,fill=B['muted'])
+    inner+=el_text(68,149,'sohail.dev07@gmail.com',17,fill=B['cyan'],weight=700,family='mono')
+    inner+=circle(1062,88,55,'none',f'stroke="{B["cyan"]}" stroke-width="2" opacity=".7" class="trace"')
+    inner+=el_text(1062,98,'MS',34,weight=800,extra='text-anchor="middle"')
+    return svg_shell('Contact Muhammad Sohail',w,h,inner,delay=3.05)
 
 
 def main():
@@ -415,22 +500,30 @@ def main():
         raise ValueError('Contribution JSON username does not match config.json')
     if len(CFG['links'])!=3:
         raise ValueError('Exactly three linked tiles are required')
+    if len(CFG.get('other_projects',[]))!=10 or len(CFG['featured_repos'])!=5:
+        raise ValueError('Expected 5 featured repositories and 10 additional projects')
     for c in B.values():
         if not re.fullmatch(r'#[0-9a-fA-F]{6}',c):
             raise ValueError('Brand colours must be six-digit hex values')
     OUT.mkdir(exist_ok=True)
     FONTS=make_embedded_fonts()
     stats=stats_from_data()
-    cards={'hero.svg':hero(), 'stats.svg':stats_card(stats), 'contribution-graph.svg':heatmap_card(stats)}
+    cards={'hero.svg':hero(), 'expertise.svg':expertise_card(), 'tech-stack.svg':stack_card(),
+           'stats.svg':stats_card(stats), 'contribution-graph.svg':heatmap_card(stats),
+           'focus.svg':focus_card(), 'footer.svg':footer_card()}
     for i,link in enumerate(CFG['links']):
-        cards[f'tile-{link["key"]}.svg']=tile(link,.16+i*.16)
+        cards[f'tile-{link["key"]}.svg']=tile(link,.17+i*.14)
     for i,item in enumerate(CFG['featured_repos'],1):
         cards['repo-'+slug(item['repo'].split('/')[-1])+'.svg']=repo_card(item,i)
+    for i,item in enumerate(CFG['other_projects'],1):
+        cards['project-'+slug(item['name'])+'.svg']=project_card(item,i)
     for name,content in cards.items():
         (OUT/name).write_text(content,encoding='utf-8')
     print(f'Rendered {len(cards)} self-contained SVG cards into {OUT.relative_to(ROOT)}/ ({"STATIC" if STATIC else "animated"} mode).')
     if not stats:
-        print('No real GitHub contribution data yet; statistics explicitly display pending, not fabricated values.')
+        print('Contribution statistics pending: run GitHub Action to fetch verified data.')
+    if CFG.get('portrait_path') and not (ROOT/CFG['portrait_path']).is_file():
+        print('GitHub portrait pending: run GitHub Action to fetch and embed profile avatar.')
 
 
 if __name__=='__main__':
